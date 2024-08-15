@@ -1,0 +1,40 @@
+.library{
+    margin-top: 60px;
+    position: relative;
+}
+.library__header{
+margin-bottom: 30px;
+text-align: left;
+}
+.library__content{
+
+}
+
+.library__link{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    margin: 0 auto;
+    padding: 12px 30px;
+    background-color: #e75e8d;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 25px;
+    width: fit-content;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+}
+
+.library__link:hover{
+    background: #fff;
+    color: #e75e8d;
+}

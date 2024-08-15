@@ -1,0 +1,58 @@
+.popular-box{
+    background-color: #27292a;
+    padding: 30px 15px;
+    border-radius: 40px;
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-bottom: 30px;
+}
+.poular-box__img{
+border-radius: 15px;
+width: 100%;
+}
+.popular-box__details{
+margin-top: 20px;
+}
+.popular-box__details-top{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.popular-box__title{
+font-weight: bold;
+}
+.popular-box__rating{
+flex-basis: 30%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.popular-box__rating-icon{
+color: yellow;
+}
+.popular-box__rating-number{
+
+}
+.popular-box__details-bottom{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.popular-box__subtitle{
+color: #666;
+}
+.popular-box__download{
+flex-basis: 30%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.popular-box__download-icon{
+color: #e75e8d;
+}
+.popular-box__download-number{
+
+}

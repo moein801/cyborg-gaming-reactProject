@@ -1,0 +1,9 @@
+.inner-wrapper{
+    padding: 30px;
+    background-color: #1f2122;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}

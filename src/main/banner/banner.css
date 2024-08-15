@@ -1,0 +1,51 @@
+
+.banner{
+    width: 100%;
+border-radius: 20px;
+background: url("/public/images/banner/banner-bg.jpg") no-repeat center center ;
+background-size: cover;
+height: 430px;
+display: flex;
+flex-direction: column;
+align-items: start;
+padding: 80px 60px;
+gap: 25px;
+color: #fff;
+text-align: left;
+
+}
+.banner__text{
+font-size: 20px;
+}
+.banner__title{
+font-size: 45px;
+font-weight: bold;
+line-height: 1.4;
+
+}
+
+.banner__title span{
+    color: #ec6090;
+}
+.banner__link{
+    color: #fff;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 40px;
+    background: #ec6090;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    font-size: 14px;
+    transition: all 400ms ease;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
+}
+
+.banner__link:hover{
+    color: #ec6090;
+    background-color: #fff;
+}

@@ -1,0 +1,14 @@
+.footer{
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+}
+.footer__top-text{
+display: block;
+
+}
+.footer__bottom-text{
+line-height: 2.5;
+}
